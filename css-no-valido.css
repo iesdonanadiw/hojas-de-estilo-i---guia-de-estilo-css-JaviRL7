@@ -1,16 +1,17 @@
-<!-- Esto es un CSS no válido -->
+<!--Esto es un CSS no válido -- >
 
  <!--[if IE]>
       <link rel="stylesheet" href="css/ie.css" type="text/css"/>
+ 
  <![endif]-->
 
- #yee-1901 {}
+ .clase_ejempo {}
  .button-green {}
  .clear {}
- #navigation {}
+ .classe_ejemplo2 {}
  .atr {}
 
- ul#example {}
+ ul.example {}
  div.error {}
 
  .error_status {
@@ -24,23 +25,21 @@
  padding-top: 0;
  }
  .demoimage {margin: 0px;
- padding: 1 1 0px;
+ padding: 1px;
  font-size: 0.8em;
- olor: #eebbcc;}
-
-
+ color: #eebbcc;
  -moz-border-radius: 4px;
  -webkit-border-radius: 4px;
  background: fuchsia;
- border: 1px solid;
+ border: 1px;
  text-align: center;
  text-indent: 2em;
  border-radius: 4px;
  color: black;
-
+ }
    h1 {
-     background: #fff;
-     color: #444;
+     background: rgb(255, 255, 255);
+     color: rgb(67, 64, 64);
    }
 
  .test {
@@ -73,7 +72,7 @@
    width: 50%;
  }
 
- @import url("https://www.google.com/css/maia.css");
+ @import url(https://www.google.com/css/maia.css);
 
  html {
    font-family: "open sans", arial, sans-serif;
